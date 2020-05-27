@@ -1,5 +1,5 @@
 default  partial alphanumeric_keys
-xkb_symbols "basic" {
+xkb_symbols "programatorska" {
 
     // Czech programmer's keyboard layout, analogous to the Polish programmer's
     // keyboard layout (https://pl.wikipedia.org/wiki/Klawiatura_programisty).
@@ -15,7 +15,7 @@ xkb_symbols "basic" {
     // 2020, Konrad Siek <konrad.siek@gmail.com>
     include "latin"
 
-    name[Group1]="Czech (programisty)";
+    name[Group1]="Czech"; // (programátorská)
 
     key <AE01>	{ [         1,     exclam,     notequal,   exclamdown ]	};
     key <AE02>	{ [         2,         at,  twosuperior, questiondown ]	};
